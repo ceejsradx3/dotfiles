@@ -1,0 +1,17 @@
+"*":
+  core:
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/ceejsradx3/Documents/GitHub"
+    reopenProjectMenuCount: 5
+    telemetryConsent: "limited"
+  "exception-reporting":
+    userId: "258290c4-c42f-484b-b51b-d1fe1c75bbf9"
+  "sync-settings":
+    autoCheckForUpdatedBackup: "no"
+    gistId: "e80a5bb52d4fbb24529a15181caa4c20"
+    hiddenSettings:
+      _lastBackupTime: "2021-08-16T22:57:05Z"
+    installLatestVersion: true
+    personalAccessToken: "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"
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,95 @@
+{
+  "_from": "https://www.atom.io/api/packages/sync-settings/versions/5.2.14/tarball",
+  "_id": "sync-settings@5.2.14",
+  "_inBundle": false,
+  "_integrity": "sha512-EB0UWVcqJonsop2Irgcqe/U9xwXiO588BjctWstXZTMHHOCQaOEhWFwEKIdahUK9hBdQlL2tTqNso8eLwUfcPQ==",
+  "_location": "/sync-settings",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/sync-settings/versions/5.2.14/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/sync-settings/versions/5.2.14/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/sync-settings/versions/5.2.14/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/sync-settings/versions/5.2.14/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/sync-settings/versions/5.2.14/tarball",
+  "_shasum": "5364e1a758d8ae627776cac23f7be0aa7d81cc8e",
+  "_spec": "https://www.atom.io/api/packages/sync-settings/versions/5.2.14/tarball",
+  "_where": "/private/var/folders/k8/73tn7drs3nn4y9htfjhvk4tm0000gn/T/apm-install-dir-202177-9073-9t3drw.wj7ae",
+  "atomTestRunner": "atom-jasmine3-test-runner",
+  "bugs": {
+    "url": "https://github.com/atom-community/sync-settings/issues"
+  },
+  "bundleDependencies": false,
+  "commits": {
+    "url": "https://github.com/atom-community/sync-settings/commit"
+  },
+  "consumedServices": {
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "busySignalService"
+      }
+    },
+    "sync-settings-location": {
+      "versions": {
+        "1.0.0": "syncSettingslocationService"
+      }
+    }
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.7.1",
+    "atom-modal-views": "^1.0.14",
+    "deep-object-diff": "^1.1.0",
+    "diff": "^5.0.0",
+    "etch": "^0.14.1",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "is-binary-path": "^2.1.0",
+    "key-path-helpers": "^0.4.0",
+    "minimatch": "^3.0.4",
+    "proxy-agent": "^5.0.0",
+    "semver": "^7.3.5",
+    "underscore-plus": "^1.7.0"
+  },
+  "deprecated": false,
+  "description": "Synchronize package settings, keymap and installed packages",
+  "devDependencies": {
+    "@semantic-release/apm-config": "^8.0.0",
+    "atom-jasmine3-test-runner": "^5.2.7",
+    "eslint": "^7.31.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "semantic-release": "^17.4.4"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-community/sync-settings#readme",
+  "keywords": [
+    "settings",
+    "productivity",
+    "manager",
+    "sync",
+    "backup",
+    "restore"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "sync-settings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-community/sync-settings.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "atom --test ./spec"
+  },
+  "version": "5.2.14"
+}
