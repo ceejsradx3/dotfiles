@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+# Check if homebrew is installed
+if ! is_executable "brew"; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+  success "Homebrew successfully installed... continuing"
+else
+  success "Homebrew already installed, continuing..."
+fi
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ceejsradx3/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+#install brew packages
+brew install cask
+brew install mackup
+brew install wget
+brew install grep
+brew install openssh
+brew install neofetch
+brew install tree
+brew install curl
+brew install openssl
+brew install coreutils
+brew install moreutils
+brew install findutils
+brew install binutils
+brew install dockutil
+brew install nmap
+brew install dnstracer
+
+#ops
+brew install ansible
+brew install docker
+
+#dev
+brew install git
+brew install ruby
+brew install python
+
+#install macOS apps
+brew install google-chrome
+brew install discord
+brew install handbrake
+brew install yacreader
+brew install microsoft-remote-desktop
+brew install microsoft-teams
+brew install atom
+brew install gns3
+brew install wireshark
+brew install angry-ip-scanner
+brew install the-unarchiver
