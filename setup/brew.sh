@@ -50,4 +50,5 @@ brew install atom
 brew install gns3
 brew install wireshark
 brew install angry-ip-scanner
+brew install putty
 brew install the-unarchiver
