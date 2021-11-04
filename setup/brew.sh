@@ -29,6 +29,7 @@ brew install binutils
 brew install dockutil
 brew install nmap
 brew install dnstracer
+brew install caffeine
 
 #ops
 brew install ansible
