@@ -29,7 +29,7 @@ brew install binutils
 brew install dockutil
 brew install nmap
 brew install dnstracer
-brew install caffeine
+
 
 #ops
 brew install ansible
@@ -49,7 +49,10 @@ brew install microsoft-remote-desktop
 brew install microsoft-teams
 brew install atom
 brew install gns3
+brew install virtualbox
 brew install wireshark
 brew install angry-ip-scanner
 brew install putty
 brew install the-unarchiver
+brew install caffeine
+brew install synergy
