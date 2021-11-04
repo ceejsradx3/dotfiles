@@ -56,3 +56,4 @@ brew install putty
 brew install the-unarchiver
 brew install caffeine
 brew install synergy
+brew install karabiner-elements
