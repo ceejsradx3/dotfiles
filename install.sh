@@ -6,7 +6,7 @@ echo "Installing Homebrew and your desired packages and applications..."
 # run the Homebrew Script
 source ~/dotfiles/setup/brew.sh
 
-echo "Creating necessary symlinks..."
+echo "Copying necessary files..."
 # create symlinks
 source ~/dotfiles/setup/symlink.sh
 
