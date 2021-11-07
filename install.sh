@@ -8,7 +8,7 @@ source ~/dotfiles/setup/brew.sh
 
 echo "Copying necessary files..."
 # create symlinks
-source ~/dotfiles/setup/symlink.sh
+source ~/dotfiles/setup/cpfiles.sh
 
 echo "Restoring your mackup backup..."
 # restore backup
