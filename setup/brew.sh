@@ -48,6 +48,7 @@ brew install yacreader
 brew install microsoft-remote-desktop
 brew install microsoft-teams
 brew install atom
+brew install github
 brew install gns3
 brew install virtualbox
 brew install wireshark
