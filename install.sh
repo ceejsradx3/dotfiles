@@ -7,7 +7,7 @@ echo "Installing Homebrew and your desired packages and applications..."
 source ~/dotfiles/setup/brew.sh
 
 echo "Copying necessary files..."
-# create symlinks
+# create copies
 source ~/dotfiles/setup/cpfiles.sh
 
 echo "Restoring your mackup backup..."
