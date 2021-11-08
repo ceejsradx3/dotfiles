@@ -1,6 +1,6 @@
 # CeeJsRadx3's dotfiles
 
-![Dotfiles preview](https://raw.githubusercontent.com/ceejsradx3/dotfiles/preview.jpg)
+![Dotfiles preview](https://github.com/ceejsradx3/dotfiles/blob/main/preview.jpg)
 
 🤗 &nbsp;These dotfiles are a workflow to automate the configuration my macOS installations They are very basic, and tailored to my level of knowledge surrounding the concept of programmatic setup. Feel free to explore, copy and re-use the code as you see fit.
 
