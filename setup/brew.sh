@@ -15,6 +15,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 #install brew packages
 brew install cask
 brew install mackup
+brew install mas
 brew install wget
 brew install grep
 brew install openssh
@@ -58,3 +59,5 @@ brew install the-unarchiver
 brew install caffeine
 brew install synergy
 brew install karabiner-elements
+
+mas install bettersnaptool
