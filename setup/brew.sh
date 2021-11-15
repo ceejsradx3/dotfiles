@@ -35,6 +35,7 @@ brew install dnstracer
 #ops
 brew install ansible
 brew install docker
+brew install cyberduck
 
 #dev
 brew install git
