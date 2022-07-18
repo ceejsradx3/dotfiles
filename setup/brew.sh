@@ -60,5 +60,6 @@ brew install the-unarchiver
 brew install caffeine
 brew install synergy
 brew install karabiner-elements
+brew install qmk-toolbox
 
 mas install bettersnaptool
