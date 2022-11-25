@@ -41,6 +41,7 @@ brew install cyberduck
 brew install git
 brew install ruby
 brew install python
+brew install tmux
 
 #install macOS apps
 brew install google-chrome
