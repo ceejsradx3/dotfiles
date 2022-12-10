@@ -13,7 +13,7 @@ cd ${dotfiledir}
 echo "...done"
 
 # list of files/folders to copy in ${homedir}
-files=(atom config init mackup.cfg)
+files=(init)
 
 # create copies (will overwrite old dotfiles)
 for file in ${files}; do
