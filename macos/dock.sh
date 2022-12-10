@@ -4,14 +4,13 @@
 dockutil --no-restart --remove all
 
 #rebuild apps in dock
-dockutil --no-restart --add "/System/Applications/System Preferences.app"
-dockutil --no-restart --add "/System/Applications/App Store.app"
+dockutil --no-restart --add "/System/Applications/Mission Control.app"
+dockutil --no-restart --add "/Applications/Mirosoft Remote Desktop.app"
 dockutil --no-restart --add "/System/Applications/Shortcuts.app"
 dockutil --no-restart --add "/System/Applications/Utilities/Terminal.app"
 dockutil --no-restart --add "/Applications/Safari.app"
-dockutil --no-restart --add "/Applications/Atom.app"
+dockutil --no-restart --add "/Applications/Visual Studio Code.app"
 dockutil --no-restart --add "/Applications/GitHub Desktop.app"
-dockutil --no-restart --add "/Applications/GNS3.app"
 dockutil --no-restart --add "/System/Applications/Messages.app"
 dockutil --no-restart --add "/Applications/Discord.app"
 dockutil --no-restart --add "/Applications/YACReaderLibrary.app"
