@@ -50,7 +50,6 @@ brew install handbrake
 brew install yacreader
 brew install microsoft-remote-desktop
 brew install microsoft-teams
-brew install atom
 brew install github
 brew install gns3
 brew install virtualbox
@@ -62,5 +61,6 @@ brew install caffeine
 brew install synergy
 brew install karabiner-elements
 brew install qmk-toolbox
+brew install visual-studio-code
 
 mas install bettersnaptool
