@@ -2,7 +2,7 @@
 
 echo "Setting up your Mac..."
 
-echo "Installing Homebrew and your desired packages and applications..."
+echo "Installing Homebrew, your desired packages, and applications..."
 # run the Homebrew Script
 source ~/dotfiles/setup/brew.sh
 
@@ -21,3 +21,7 @@ source ~/dotfiles/macos/macos
 echo "Configuring your dock..."
 # replace dock apps
 source ~/dotfiles/macos/dock.sh
+
+echo "Cleaning up my mess..."
+# remove dotfiles folder
+sudo rm -r -f ~/dotfiles/

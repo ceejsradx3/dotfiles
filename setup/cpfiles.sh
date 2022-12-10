@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-################################################################################################################
-# This script creates copies from the home directory of any desired dotfiles in ${homedir}/dotfiles          #
-################################################################################################################
-
 # dotfiles directory
 dotfiledir=$HOME/dotfiles
 
@@ -18,5 +14,5 @@ files=(init)
 # create copies (will overwrite old dotfiles)
 for file in ${files}; do
     echo "Creating symlink to $file in home directory."
-    cp -R ${dotfiledir}/${file} $HOME/.${file}
+    cp ${dotfiledir}/${file} $HOME/.${file}
 done
