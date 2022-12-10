@@ -26,7 +26,7 @@ Below is a list of the packages, utilities, and programs set to install:
 - YacReader
 - Microsoft Remote Desktop
 - Microsoft Teams
-- GitHub Atom
+- VS Code
 - GitHub Desktop
 - GNS3
 - Virtualbox
@@ -38,6 +38,8 @@ Below is a list of the packages, utilities, and programs set to install:
 - Synergy
 - Karabiner Elements
 - Mackup
+- BetterSnapTool
+- Cyberduck
 
 ## Credits
 
