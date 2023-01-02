@@ -9,6 +9,7 @@ else
   success "Homebrew already installed, continuing..."
 fi
 
+# Uncomment this section if you are running a Mac with an Apple Silicon processor
 # Be sure to change username here!
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ceejsradx3/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
