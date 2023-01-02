@@ -6,10 +6,6 @@ echo "Installing Homebrew, your desired packages, and applications..."
 # run the Homebrew Script
 source ~/dotfiles/setup/brew.sh
 
-echo "Copying necessary files..."
-# create copies
-source ~/dotfiles/setup/cpfiles.sh
-
 echo "Restoring your mackup backup..."
 # restore backup
 mackup restore
