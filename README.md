@@ -1,6 +1,6 @@
-# CeeJsRadx3's dotfiles
+# CJMVincent's dotfiles
 
-![Dotfiles preview](https://github.com/ceejsradx3/dotfiles/blob/main/preview.jpg)
+![Dotfiles preview](https://github.com/cjmvincent/dotfiles/blob/main/preview.jpg)
 
 These dotfiles are a workflow to automate the configuration my personal macOS installations. This is a machine I do a lot of tinckering on, and testing things. These are very basic dotfiles, and tailored to my level of knowledge surrounding the concept of programmatic setup. Feel free to explore, copy and re-use the code as you see fit.
 
@@ -12,7 +12,7 @@ a try. Make sure to install the Xcode Command Line Tools by running
 
 Ideally you should be cloning the repo into ~/ as that's where my scripts will being referring to 🤖:
 
-    git clone http://github.com/ceejsradx3/dotfiles.git && cd dotfiles && ./install.sh
+    git clone http://github.com/cjmvincent/dotfiles.git && cd dotfiles && ./install.sh
 
 That's about it, I think... I'm sure as time passes, and I learn more things, this repo will evolve.
 
