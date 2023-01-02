@@ -9,6 +9,7 @@ else
   success "Homebrew already installed, continuing..."
 fi
 
+# Be sure to change username here!
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ceejsradx3/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
