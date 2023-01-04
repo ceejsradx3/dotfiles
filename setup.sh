@@ -4,7 +4,7 @@ echo "Setting up your Mac..."
 
 echo "Installing Homebrew, your desired packages, and applications..."
 # run the Homebrew Script
-source ./setup/brew.sh
+source ./setup/install.sh
 
 echo "Restoring your mackup backup..."
 # restore backup
