@@ -12,11 +12,11 @@ mackup restore
 
 echo "Loading your MacOS preferences.."
 # load macOS preferences
-source ./macos/macos
+source ./setup/macos
 
 echo "Configuring your dock..."
 # replace dock apps
-source ./macos/dock.sh
+source ./setup/dock.sh
 
 echo "Cleaning up my mess..."
 # remove dotfiles folder
