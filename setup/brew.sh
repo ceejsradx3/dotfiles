@@ -14,7 +14,7 @@ fi
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ceejsradx3/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-#install brew packages
+# install brew packages
 brew install cask
 brew install mackup
 brew install mas
@@ -34,18 +34,18 @@ brew install nmap
 brew install dnstracer
 
 
-#ops
+# ops
 brew install ansible
 brew install docker
 brew install cyberduck
 
-#dev
+# dev
 brew install git
 brew install ruby
 brew install python
 brew install tmux
 
-#install macOS apps
+# install macOS apps
 brew install google-chrome
 brew install discord
 brew install handbrake
@@ -66,3 +66,6 @@ brew install qmk-toolbox
 brew install visual-studio-code
 
 mas install bettersnaptool
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
