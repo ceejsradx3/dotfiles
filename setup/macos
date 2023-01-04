@@ -492,7 +492,7 @@ defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnab
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Install the Space Duck theme for Terminal
-open "$HOME/dotfiles/init/spaceduck.terminal"
+open "$HOME/dotfiles/files/spaceduck.terminal"
 
 # Use a modified version of the Space Duck theme by default in Terminal.app
 osascript <<EOD
