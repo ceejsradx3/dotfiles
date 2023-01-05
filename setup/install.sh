@@ -34,6 +34,7 @@ brew install nmap
 brew install telnet
 brew install dnstracer
 brew install ipcalc
+brew install mtr
 
 # ops
 brew install ansible
