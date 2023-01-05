@@ -32,7 +32,7 @@ brew install binutils
 brew install dockutil
 brew install nmap
 brew install dnstracer
-
+brew install ipcalc
 
 # ops
 brew install ansible
