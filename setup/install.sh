@@ -31,6 +31,7 @@ brew install findutils
 brew install binutils
 brew install dockutil
 brew install nmap
+brew install telnet
 brew install dnstracer
 brew install ipcalc
 
