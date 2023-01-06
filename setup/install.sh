@@ -63,7 +63,7 @@ brew install angry-ip-scanner
 brew install putty
 brew install the-unarchiver
 brew install caffeine
-brew install synergy
+brew install synergy-core
 brew install karabiner-elements
 brew install qmk-toolbox
 brew install visual-studio-code
