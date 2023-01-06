@@ -66,6 +66,7 @@ brew install caffeine
 brew install synergy-core
 brew install karabiner-elements
 brew install visual-studio-code
+brew install microsoft-office
 
 mas install bettersnaptool
 
