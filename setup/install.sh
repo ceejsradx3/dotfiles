@@ -41,6 +41,7 @@ brew install speedtest-cli
 brew install ansible
 brew install docker
 brew install cyberduck
+brew install postman
 
 # dev
 brew install git
