@@ -36,6 +36,7 @@ brew install dnstracer
 brew install ipcalc
 brew install mtr
 brew install speedtest-cli
+brew install exa
 
 # ops
 brew install ansible
