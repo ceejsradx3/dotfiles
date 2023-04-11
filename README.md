@@ -1,6 +1,6 @@
 # CJMVincent's dotfiles
 
-![Dotfiles preview](https://github.com/cjmvincent/dotfiles/blob/main/preview.jpg)
+![Dotfiles preview](https://github.com/cjmvincent/dotfiles/blob/main/preview.png)
 
 This workflow is to automate the configuration my personal macOS installations. This is a machine I do a lot of tinckering on, and testing things. These are very basic dotfiles, and tailored to my level of knowledge surrounding the concept of programmatic setup. Feel free to explore, copy and re-use the code as you see fit.
 
