@@ -65,7 +65,7 @@ brew install angry-ip-scanner
 brew install putty
 brew install --cask the-unarchiver
 brew install --cask caffeine
-brew install synergy-core
+#brew install synergy-core
 brew install --cask karabiner-elements
 brew install koekeishiya/formulae/skhd
 brew install --cask visual-studio-code
