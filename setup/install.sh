@@ -72,7 +72,7 @@ brew install visual-studio-code
 brew install microsoft-office
 brew install hiddenbar
 
-mas install bettersnaptool
+mas install 417375580 # bettersnaptool
 
 brew services start skhd
 
