@@ -48,7 +48,7 @@ brew install --cask github
 # dev
 brew install git
 brew install ruby
-brew install python
+#brew install python
 brew install tmux
 
 # install macOS apps
