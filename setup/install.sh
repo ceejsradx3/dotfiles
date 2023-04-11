@@ -67,11 +67,14 @@ brew install the-unarchiver
 brew install caffeine
 brew install synergy-core
 brew install karabiner-elements
+brew install koekeishiya/formulae/skhd
 brew install visual-studio-code
 brew install microsoft-office
 brew install hiddenbar
 
 mas install bettersnaptool
+
+brew services start skhd
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
