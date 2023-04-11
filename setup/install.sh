@@ -40,9 +40,10 @@ brew install exa
 
 # ops
 brew install ansible
-brew install docker
-brew install cyberduck
-brew install postman
+brew install --cask docker
+brew install --cask cyberduck
+brew install --cask postman
+brew install --cask github
 
 # dev
 brew install git
@@ -52,25 +53,24 @@ brew install tmux
 
 # install macOS apps
 brew install google-chrome
-brew install discord
-brew install handbrake
-brew install yacreader
-brew install microsoft-remote-desktop
+brew install --cask discord
+brew install --cask handbrake
+brew install --cask yacreader
+brew install --cask microsoft-remote-desktop
 brew install microsoft-teams
-brew install github
-brew install gns3
-brew install virtualbox
-brew install wireshark
+brew install --cask gns3
+brew install --cask virtualbox
+brew install --cask wireshark
 brew install angry-ip-scanner
 brew install putty
-brew install the-unarchiver
-brew install caffeine
+brew install --cask the-unarchiver
+brew install --cask caffeine
 brew install synergy-core
-brew install karabiner-elements
+brew install --cask karabiner-elements
 brew install koekeishiya/formulae/skhd
-brew install visual-studio-code
+brew install --cask visual-studio-code
 brew install microsoft-office
-brew install hiddenbar
+brew install --cask hiddenbar
 
 mas install 417375580 # bettersnaptool
 
