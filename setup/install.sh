@@ -70,8 +70,8 @@ brew install --cask karabiner-elements
 brew install koekeishiya/formulae/skhd
 brew install --cask visual-studio-code
 brew install microsoft-office
-brew install --cask hiddenbar
 
+mas install 1452453066 # hiddenbar
 mas install 417375580 # bettersnaptool
 
 brew services start skhd
