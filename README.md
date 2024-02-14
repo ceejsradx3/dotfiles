@@ -11,7 +11,7 @@ This workflow is to automate the configuration my personal macOS installations. 
 
 Ideally you should be cloning the repo into your home directory as that's where my scripts will being referring to 🤖:
 
-    git clone http://github.com/cjmvincent/dotfiles.git && cd dotfiles && sudo sh ./setup.sh
+    git clone http://github.com/cjmvincent/dotfiles.git && cd dotfiles && sudo sh ./install.sh
 
 That's about it, I think... I'm sure as time passes, and I learn more things, this repo will evolve.
 
