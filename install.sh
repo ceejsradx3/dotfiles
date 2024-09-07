@@ -47,3 +47,12 @@ echo "| | | | | | |  \| || |__  "
 echo "| | | | | | | .   ||  __| "
 echo "| |/ /\ \_/ / |\  || |___ "
 echo "|___/  \___/\_| \_/\____/ "
+
+echo
+echo -n "Do you want to reboot the system? [y/N]"
+read REPLY
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+  sudo reboot
+else
+  exit
+fi
