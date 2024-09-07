@@ -6,14 +6,9 @@ echo "Setting up your Mac..."
 echo 
 source ./setup/brew.sh
 
-echo "Configuring your terminal..."
-# install oh-my-zsh
-if test ! $(which omz); then
-  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
-fi
-
-# install Powerlevel10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+# configure terminal by installing ohmyzsh and powerlevel10k theme
+echo 
+source ./setup/terminal.sh
 
 # restore backup
 echo "Restoring your mackup backup..."
