@@ -1,5 +1,9 @@
 #!/bin/sh bash
 
+echo
+echo "Installing Homebrew..."
+echo
+
 # Check if homebrew is installed
 if test ! $(which brew); then
   NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -13,6 +17,10 @@ if test ! $(which brew); then
 else
   success "Homebrew already installed, continuing..."
 fi
+
+echo
+echo "Installing brew formulae and apps..."
+echo
 
 # update homebrew recipes
 brew update && brew upgrade

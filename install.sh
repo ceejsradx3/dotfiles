@@ -20,15 +20,10 @@ echo "Setting up your Mac..."
 echo
 
 # check for and install homebrew
-echo
-echo "Installing Homebrew and then desired apps..."
-echo
 source ./setup/brew.sh
 
 # configure terminal by installing ohmyzsh and powerlevel10k theme
-echo 
 source ./setup/terminal.sh
-echo
 
 # restore backup
 echo
@@ -37,15 +32,9 @@ echo
 mackup restore
 
 # load macOS preferences
-echo
-echo "Loading your MacOS preferences.."
-echo
 source ./setup/macos
 
 # replace dock apps
-echo
-echo "Configuring your dock..."
-echo
 source ./setup/dock.sh
 
 

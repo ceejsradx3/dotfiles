@@ -1,5 +1,9 @@
 #!/bin/sh bash
 
+echo
+echo "Configuring your dock..."
+echo
+
 #remove pre-existing apps from dock
 dockutil --no-restart --remove all
 
