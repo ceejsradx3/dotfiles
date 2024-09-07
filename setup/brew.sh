@@ -16,7 +16,7 @@ else
 fi
 
 # update homebrew recipes
-brew update
+brew update && brew doctor
 
 # install dependencies from brewfile
 brew tap homebrew/bundle
