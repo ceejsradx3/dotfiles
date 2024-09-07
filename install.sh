@@ -1,5 +1,19 @@
 #!/bin/sh
 
+clear
+echo " _           _        _ _       _     "
+echo "(_)         | |      | | |     | |    "
+echo " _ _ __  ___| |_ __ _| | |  ___| |__  "
+echo "| | |_ \/ __| __/ _  | | | / __| |_ \ "
+echo "| | | | \__ \ || (_| | | |_\__ \ | | |"
+echo "|_|_| |_|___/\__\__,_|_|_(_)___/_| |_|"
+echo
+echo
+echo Please enter root password
+
+# Ask for the administrator password upfront.
+sudo -v
+
 echo "Setting up your Mac..."
 
 # check for and install homebrew
