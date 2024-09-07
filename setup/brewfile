@@ -1,6 +1,8 @@
 # taps
 tap 'homebrew/bundle'
 tap 'homebrew/cask-versions'
+tap 'FelixKratz/formulae'
+tap 'koekeishiya/formulae'
 
 # brew formulae
 brew 'mackup'
@@ -24,7 +26,8 @@ brew 'ipcalc'
 brew 'mtr'
 brew 'speedtest-cli'
 brew 'ipinfo-cli'
-brew 'koekeishiya/formulae/skhd'
+brew 'skhd'
+#brew 'sketchybar'
 
 # NetOps
 brew 'ansible'
