@@ -23,9 +23,7 @@ echo "Configuring your dock..."
 source ./setup/dock.sh
 
 # remove dotfiles folder
-echo "Cleaning up my mess..."
-cd ..
-sudo rm -r -f /dotfiles/
+#echo "Cleaning up my mess..."
+#cd ..
+#sudo rm -r -f /dotfiles/
 
-# start install services and plugins
-brew services start skhd

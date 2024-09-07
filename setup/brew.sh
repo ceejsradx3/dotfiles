@@ -21,3 +21,6 @@ brew update
 # install dependencies from brewfile
 brew tap homebrew/bundle
 brew bundle --file ./setup/brewfile
+
+# start install services and plugins
+brew services start skhd
