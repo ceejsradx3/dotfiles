@@ -18,8 +18,7 @@ fi
 # update homebrew recipes
 brew update && brew upgrade
 
-# install dependencies from brewfile
-brew tap homebrew/bundle
+# install formulae and apps from brewfile
 brew bundle --global --file ./setup/brewfile
 
 brew update && brew upgrade &&  brew doctor
