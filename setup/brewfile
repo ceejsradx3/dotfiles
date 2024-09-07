@@ -55,6 +55,7 @@ cask 'synergy-core'
 cask 'karabiner-elements'
 cask 'visual-studio-code'
 cask 'microsoft-office'
+cask "displaylink"
 
 mas 'Hiddenbar', id: 1452453066
 mas 'BetterSnapTool', id: 417375580
