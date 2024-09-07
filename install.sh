@@ -29,6 +29,7 @@ source ./setup/terminal.sh
 echo
 echo "Restoring your mackup backup..."
 echo
+cp ./mackup.cfg $HOME/.mackup.cfg
 mackup restore
 
 # load macOS preferences
