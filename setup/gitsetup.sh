@@ -1,3 +1,9 @@
+#!/bin/sh bash
+
+echo
+echo "Let's configure git..."
+echo
+
 echo "Please enter your git username:"
 read name
 echo "Please enter your git email:"

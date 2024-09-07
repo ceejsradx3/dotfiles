@@ -1,5 +1,4 @@
-
-echo "Installing Homebrew, your desired packages, and applications..."
+#!/bin/sh bash
 
 # Check if homebrew is installed
 if test ! $(which brew); then
@@ -21,7 +20,8 @@ brew update && brew upgrade
 # install formulae and apps from brewfile
 brew bundle --global --file ./setup/brewfile
 
-brew update && brew upgrade &&  brew doctor
+# clean up
+brew update && brew upgrade &&  brew doctor && brew cleanup
 
 # start install services and plugins
 brew services start skhd

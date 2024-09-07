@@ -1,4 +1,9 @@
+#!/bin/sh bash
+
+echo
 echo "Configuring your terminal..."
+echo
+
 # install oh-my-zsh
 if test ! $(which omz); then
   /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
