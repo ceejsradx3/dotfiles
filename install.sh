@@ -12,7 +12,7 @@ echo
 echo
 echo Please enter root password
 
-# Ask for the administrator password upfront.
+# ask for the administrator password upfront.
 sudo -v
 
 echo
@@ -25,7 +25,7 @@ source ./setup/brew.sh
 # configure terminal by installing ohmyzsh and powerlevel10k theme
 source ./setup/terminal.sh
 
-# restore backup
+# restore mackup backup
 echo
 echo "Restoring your mackup backup..."
 echo
