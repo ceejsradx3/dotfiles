@@ -4,17 +4,15 @@ echo
 echo "Installing Homebrew..."
 echo
 
-# var for username
-username = "chrlema9ne"
-
 # Check if homebrew is installed
 if test ! $(which brew); then
   NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Uncomment this section if you are running a Mac with an Apple Silicon processor
-# Be sure to change username here!
-#echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$username/.zprofile
-#eval "$(/opt/homebrew/bin/brew shellenv)"
+  if [[ "$processor_brand" == *"Apple"* ]]; then
+    echo "Apple Processor is present..."
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  fi
 
   success "Homebrew successfully installed... continuing"
 else
