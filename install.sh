@@ -1,5 +1,10 @@
 #!/bin/sh bash
 
+
+# needed vars
+processor_brand="$(/usr/sbin/sysctl -n machdep.cpu.brand_string)"
+
+
 clear
 echo
 echo " _           _        _ _       _     "
