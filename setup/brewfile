@@ -1,6 +1,7 @@
 # taps
 tap 'homebrew/bundle'
 tap 'homebrew/cask-versions'
+tap 'homebrew/cask-fonts'
 tap 'FelixKratz/formulae'
 tap 'koekeishiya/formulae'
 
@@ -30,6 +31,7 @@ brew 'skhd'
 #brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 #brew 'sketchybar'
+brew font-space-mono-nerd-font
 
 # NetOps
 brew 'ansible'
