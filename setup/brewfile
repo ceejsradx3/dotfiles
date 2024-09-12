@@ -27,6 +27,8 @@ brew 'mtr'
 brew 'speedtest-cli'
 brew 'ipinfo-cli'
 brew 'skhd'
+#brew 'zsh-autosuggestions'
+brew 'zsh-syntax-highlighting'
 #brew 'sketchybar'
 
 # NetOps
