@@ -31,7 +31,7 @@ brew 'skhd'
 #brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 #brew 'sketchybar'
-brew font-space-mono-nerd-font
+brew 'font-space-mono-nerd-font'
 
 # NetOps
 brew 'ansible'
