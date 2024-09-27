@@ -33,4 +33,5 @@ brew bundle --global --file ./setup/brewfile
 brew update && brew upgrade &&  brew doctor && brew cleanup
 
 # start install services and plugins
-brew services start skhd
+skhd --start-service
+yabai --start-service

@@ -25,7 +25,10 @@ hostname = "Baymax"
 # Rosetta                                                                     #
 ###############################################################################
 
-/usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  if [[ "$processor_brand" == *"Apple"* ]]; then
+    echo "Apple Processor is present..."
+	/usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  fi
 
 ###############################################################################
 # Update MacOS                                                                #

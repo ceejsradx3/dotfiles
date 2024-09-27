@@ -27,16 +27,14 @@ brew 'ipcalc'
 brew 'mtr'
 brew 'speedtest-cli'
 brew 'ipinfo-cli'
+brew 'yabai'
 brew 'skhd'
-#brew 'zsh-autosuggestions'
-#brew 'zsh-syntax-highlighting'
-#brew 'sketchybar'
+#brew 'sketchybar' # not sure if I want to start using this or not
 brew 'font-space-mono-nerd-font'
 brew 'lsd'
 brew 'bat'
 
 # NetOps
-brew 'ansible'
 cask 'docker'
 cask 'cyberduck'
 cask 'postman'
@@ -46,8 +44,8 @@ cask 'github'
 brew 'git'
 brew 'gh'
 brew 'ruby'
-#brew 'python'
 brew 'tmux'
+brew 'pipx'
 
 # macOS apps
 cask 'google-chrome'
@@ -67,4 +65,4 @@ cask 'microsoft-office'
 cask "displaylink"
 
 mas 'Hiddenbar', id: 1452453066
-mas 'BetterSnapTool', id: 417375580
+# mas 'BetterSnapTool', id: 417375580 # finally switched to using yabai

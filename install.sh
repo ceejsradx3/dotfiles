@@ -24,24 +24,32 @@ echo
 echo "Setting up your Mac..."
 echo
 
-# check for and install homebrew
+# check for and install homebrew as well as any dependencies and desired packages
 source ./setup/brew.sh
 
 # configure terminal by installing ohmyzsh and powerlevel10k theme
 source ./setup/terminal.sh
-
-# restore mackup backup
-echo
-echo "Restoring your mackup backup..."
-echo
-cp ./setup/mackup.cfg $HOME/.mackup.cfg
-mackup restore
 
 # load macOS preferences
 source ./setup/macos
 
 # replace dock apps
 source ./setup/dock.sh
+
+# restore mackup backup
+# echo
+# echo "Restoring your mackup backup..."
+# echo
+# cp ./setup/mackup.cfg $HOME/.mackup.cfg
+# mackup restore
+
+# install dotfiles with dotbot
+echo
+echo "Restoring dotfiles with dotbot..."
+echo
+git clone https://github.com/cjmvincent/dotfiles.git $HOME/.dotfiles
+cd $HOME/.dotfiles
+./install
 
 
 echo "______ _____ _   _  _____ "
