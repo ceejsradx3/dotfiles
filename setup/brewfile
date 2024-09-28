@@ -28,6 +28,7 @@ brew 'mtr'
 brew 'speedtest-cli'
 brew 'ipinfo-cli'
 brew 'yabai'
+brew 'borders'
 brew 'skhd'
 #brew 'sketchybar' # not sure if I want to start using this or not
 brew 'font-space-mono-nerd-font'
