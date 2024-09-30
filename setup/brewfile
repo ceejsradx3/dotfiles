@@ -67,3 +67,4 @@ cask "displaylink"
 
 mas 'Hiddenbar', id: 1452453066
 # mas 'BetterSnapTool', id: 417375580 # finally switched to using yabai
+mas "Windows App", id: 1295203466 # app that replaced Microsoft Remote Desktop app
