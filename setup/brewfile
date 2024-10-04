@@ -35,6 +35,8 @@ brew 'font-space-mono-nerd-font'
 brew 'font-hack-nerd-font'
 brew 'lsd'
 brew 'bat'
+brew 'jq'
+cask 'sf-symbols'
 
 # NetOps
 cask 'docker'
