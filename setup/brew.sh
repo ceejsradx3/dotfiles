@@ -35,3 +35,5 @@ brew update && brew upgrade &&  brew doctor && brew cleanup
 # start install services and plugins
 skhd --start-service
 yabai --start-service
+brew services start sketchybar
+brew services start borders
