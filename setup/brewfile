@@ -37,6 +37,8 @@ brew 'lsd'
 brew 'bat'
 brew 'jq'
 brew 'sf-symbols'
+brew 'spaceman'
+brew 'jordanbaird-ice'
 
 # NetOps
 cask 'docker'
