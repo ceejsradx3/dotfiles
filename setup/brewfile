@@ -39,6 +39,7 @@ brew 'jq'
 brew 'sf-symbols'
 brew 'spaceman'
 brew 'starship'
+brew 'iterm2'
 
 # NetOps
 cask 'docker'
